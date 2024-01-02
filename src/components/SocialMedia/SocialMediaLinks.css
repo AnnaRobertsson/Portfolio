@@ -17,13 +17,13 @@
   font-size: 32px;
   display: flex;
   align-items: center;
-  color: #d0d0d0;
+  color: #7b3848;
 }
 
 .linkedin-button:hover,
 .github-button:hover,
 .slack-button:hover {
-  color: #000000;
+  color: #965862;
 }
 
 .sr-only {

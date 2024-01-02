@@ -1,6 +1,7 @@
 .my-words-container {
   padding: 128px 16px;
-  background: #ffecea;
+  /* background: #ffecea; */
+  background: #d0d0d0;
   display: flex;
   justify-content: center;
 }

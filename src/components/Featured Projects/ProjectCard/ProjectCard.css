@@ -13,8 +13,8 @@
   height: 200px;
   width: 100%;
   object-fit: cover;
-  border-bottom: 10px solid #0b24f5;
-  border-left: 10px solid #0b24f5;
+  border-bottom: 10px solid #965862;
+  border-left: 10px solid #7b3848;
   background: lightgray 50% / cover no-repeat;
 }
 
@@ -91,8 +91,8 @@
   .project-photo-wrapper img {
     height: 280px;
     width: 280px;
-    border-bottom: 20px solid #0b24f5;
-    border-left: 20px solid #0b24f5;
+    border-bottom: 20px solid #965862;
+    border-left: 20px solid #7b3848;
   }
 
   .text-links {

@@ -13,10 +13,7 @@ export const Introduction = () => {
           <ProfilePhoto />
         </div>
         <div className="heading-wrapper">
-          <SubHeading
-            className={"introduction-h3"}
-            text={"Hi, I'm Anna Robertsson"}
-          />
+          <SubHeading className={"introduction-h3"} text={"Anna Robertsson"} />
           <IntroHeading
             className={"introduction-h1"}
             text={"Frontend Developer"}

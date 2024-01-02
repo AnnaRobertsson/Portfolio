@@ -4,7 +4,15 @@
   align-items: center;
   position: relative;
   overflow: hidden;
-  background-color: #ff4575;
+  /* background-color: #ff4575; */
+  background: -webkit-linear-gradient(
+    45deg,
+    #42121d,
+    #7b3848,
+    #965862,
+    #7b3848,
+    #42121d
+  );
   height: 114px;
   width: 100%;
 }

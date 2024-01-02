@@ -43,17 +43,19 @@
   background-color: #f5f5f5;
 }
 
+.demo-button:hover,
+.code-button:hover,
+.article-button:hover {
+  background-color: #965862;
+  color: #fff;
+}
+
 .demo-button .button-image {
   background-image: url("/assets/LiveDemo.svg");
 }
 
 .demo-button:hover .button-image {
   background-image: url("/assets/LiveDemoHover.svg");
-}
-
-.demo-button:hover {
-  background-color: #0b24f5;
-  color: #fff;
 }
 
 .code-button .button-image {
@@ -64,10 +66,10 @@
   background-image: url("/assets/GithubHover.svg");
 }
 
-.code-button:hover {
+/* .code-button:hover {
   background-color: #eb5577;
   color: #fff;
-}
+} */
 
 .article-button {
   background-color: #fff;
@@ -77,9 +79,9 @@
   background-image: url("/assets/Doc-article.svg");
 }
 
-.article-button:hover {
+/* .article-button:hover {
   background-color: #ffd338;
-}
+} */
 
 @media (min-width: 650px) {
   .link-wrapper {

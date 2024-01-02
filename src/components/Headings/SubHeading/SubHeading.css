@@ -13,9 +13,11 @@
   font-size: 24px;
   font-weight: 600;
   color: #fff;
+  background-color: #42121d;
+  padding: 2px 5px;
 }
 
-.code {
+/* .code {
   background-color: #eb5577;
 }
 
@@ -30,7 +32,7 @@
 .more {
   background-color: #ffde30;
   color: #0b24f5;
-}
+} */
 
 .contact-h3 {
   font-size: 18px; /*Otherwise my e-mail can't fit in mobile view*/

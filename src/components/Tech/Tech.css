@@ -1,5 +1,4 @@
 .tech-container {
-  /* background-color: #0b24f5; */
   background: -webkit-linear-gradient(
     45deg,
     #42121d,
@@ -72,8 +71,9 @@
     display: inline-flex;
     height: 980px;
     padding: 0px 244px 0px 346px;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     align-items: center;
+    width: 100%;
   }
 
   .tech-wrapper {
@@ -85,5 +85,6 @@
   .techstack-wrapper p {
     font-size: 32px;
     text-shadow: none;
+    max-width: 900px;
   }
 }

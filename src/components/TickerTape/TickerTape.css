@@ -19,8 +19,9 @@
 
 .moving-text {
   white-space: nowrap;
-  animation: moveLeftToRight 40s linear infinite;
-  font-family: Montserrat;
+  animation: moveLeftToRight 60s linear infinite;
+  /* font-family: Montserrat; */
+  font-family: "Cinzel", serif;
   font-size: 26.04px;
   font-weight: 600;
   color: #ffffff;

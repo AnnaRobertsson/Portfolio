@@ -2,7 +2,8 @@ import { IntroHeading } from "../Headings/MainHeading/IntroHeading.jsx";
 import { SubHeading } from "../Headings/SubHeading/SubHeading.jsx";
 import { ProfilePhoto } from "../ProfilePhoto/ProfilePhoto.jsx";
 import { SocialMediaLinks } from "../SocialMedia/SocialMediaLinks.jsx";
-import arrowIcon from "/assets/ArrowUp.svg";
+//import arrowIcon from "/assets/ArrowUp.svg";
+import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 import "./Introduction.css";
 
 export const Introduction = () => {
@@ -10,7 +11,7 @@ export const Introduction = () => {
     <div className="introduction-container">
       <div className="introduction-wrapper">
         <div className="photo-wrapper">
-          <ProfilePhoto />
+          <ProfilePhoto className={"profile-photo"} />
         </div>
         <div className="heading-wrapper">
           <SubHeading className={"introduction-h3"} text={"Anna Robertsson"} />
@@ -24,7 +25,7 @@ export const Introduction = () => {
             Anna&apos;s journey from ophthalmic nursing to tech has infused her
             work with a passion for inclusive design in web development. With a
             focus on creating user-friendly applications, her background fosters
-            a commitment to accessibility. Her keen eye for design and
+            a commitment to accessibility. Her interest for design and
             dedication to crafting aesthetically pleasing products, but also
             inclusive solutions, makes her a valuable asset to any tech project.
             {/* Anna is a talented developer recognized for her innovative solutions
@@ -39,11 +40,12 @@ export const Introduction = () => {
           <SocialMediaLinks className={"introduction-links"} />
         </div>
       </div>
-      <img
+      {/* <img
         src={arrowIcon}
         className="arrow-icon"
         alt="Icon of an arrow pointing down to indicate there's more content underneath"
-      />
+      /> */}
+      <MdKeyboardDoubleArrowDown className="arrow-icon" />
     </div>
   );
 };

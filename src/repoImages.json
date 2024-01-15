@@ -1,5 +1,45 @@
 [
   {
+    "repoId": 730395942,
+    "repoName": "final-boiler-plate-monorepo",
+    "imageUrl": "/RepoImages/Technigo/AHelpingHand.png"
+  },
+  {
+    "repoId": 727396854,
+    "repoName": "project-auth",
+    "imageUrl": "/RepoImages/Technigo/Auth.png"
+  },
+  {
+    "repoId": 724620155,
+    "repoName": "project-happy-thoughts-api",
+    "imageUrl": "/RepoImages/Technigo/HappyThoughtsAPI.png"
+  },
+  {
+    "repoId": 721713204,
+    "repoName": "project-mongo-api",
+    "imageUrl": "/RepoImages/Technigo/MongoAPI.png"
+  },
+  {
+    "repoId": 718236252,
+    "repoName": "project-express-api",
+    "imageUrl": "/RepoImages/Technigo/ExpressAPI.png"
+  },
+  {
+    "repoId": 715974410,
+    "repoName": "project-custom-hooks-qr-code-generator-vite",
+    "imageUrl": "/RepoImages/Technigo/QRCodeGenerator.png"
+  },
+  {
+    "repoId": 711471765,
+    "repoName": "project-design-handoff-vite",
+    "imageUrl": "/RepoImages/Technigo/DesignHandoff.png"
+  },
+  {
+    "repoId": 711471428,
+    "repoName": "project-state-management-quiz-vite",
+    "imageUrl": "/RepoImages/Technigo/HalloweenQuiz.png"
+  },
+  {
     "repoId": 708339505,
     "repoName": "project-movies-vite",
     "imageUrl": "/RepoImages/Technigo/MovieSite.jpg"
